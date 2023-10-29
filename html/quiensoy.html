@@ -10,6 +10,8 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="../css/style.css">
+<!-- link de AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <title>Sueños De Piel Y Luz</title>
 </head>
@@ -49,9 +51,9 @@
 
   <!-- imagen y texto-->
   <main>
-    <h1 class="titulo-quiensoy">Quien Soy?</h1>
+    <h1 class="titulo-quiensoy" data-aos="fade-down">Quien Soy?</h1>
     <section>
-      <div class="parrafo-quiensoy"> Hola! Mi nombre es Mari soy una profesora de yoga certificada por la Yoga Alliance,
+      <div class="parrafo-quiensoy" data-aos="fade-right"> Hola! Mi nombre es Mari soy una profesora de yoga certificada por la Yoga Alliance,
         con más de 10 años de experiencia en la
         enseñanza y la práctica del yoga. Me apasiona compartir los beneficios del yoga para la salud física, mental y
         emocional, y me adapto a las necesidades y niveles de cada alumno. Mi estilo de yoga es dinámico y fluido,
@@ -59,7 +61,7 @@
         única y transformadora, donde puedas conectar contigo mismo y con tu entorno. Te invito a que te unas a mí en
         este maravilloso camino del yoga, donde encontrarás equilibrio, armonía y bienestar. Namaste.</div>
 
-      <div class="imagen-quiensoy"><img src="../assets/img/yoga10circular.png" alt="imagen"></div>
+      <div class="imagen-quiensoy" data-aos="flip-right"><img src="../assets/img/yoga10circular.png" alt="imagen"></div>
     </section>
 
     <div class="whatsapp">
@@ -96,6 +98,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+<!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 

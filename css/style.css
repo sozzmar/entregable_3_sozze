@@ -27,6 +27,11 @@ body footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  /*animation-name: cambiarcolor;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 10s;
+  animation-delay: 1s;*/
 }
 body footer a {
   text-decoration: none;
@@ -40,6 +45,21 @@ body footer a img:hover {
   width: 10%;
 }
 
+/*
+@keyframes cambiarcolor {
+    0%{
+        background-color: black;
+            }
+
+            50% {background-color: rgb(2, 0, 36);
+
+            }
+
+            100% {
+                background-color: beige;
+            }
+
+}*/
 body header {
   padding: 10px;
   border-bottom: 10px solid rgb(130, 112, 72);
