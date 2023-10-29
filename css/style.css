@@ -34,6 +34,10 @@ body footer a {
 body footer a img {
   width: 5%;
   margin: 2%;
+  transition: 1s;
+}
+body footer a img:hover {
+  width: 10%;
 }
 
 body header {
@@ -216,24 +220,28 @@ body main section div .clases-yoga-integal {
   font-size: 2vw;
   padding-top: 10%;
   padding-left: 2%;
+  transform: translateX(30%);
 }
 body main section div h2 {
   color: rgb(130, 112, 72);
   text-align: center;
   font-size: 1.75vw;
   padding-left: 2%;
+  transform: translateX(30%);
 }
 body main section div h3 {
   color: rgb(130, 112, 72);
   text-align: center;
   font-size: 1.75vw;
   padding-left: 2%;
+  transform: translateX(30%);
 }
 body main section div p {
   color: rgb(130, 112, 72);
   text-align: center;
   font-size: 1.5vw;
   padding-left: 2%;
+  transform: translateX(30%);
 }
 body main section div .yoga-experimental {
   color: rgb(130, 112, 72);
@@ -241,31 +249,36 @@ body main section div .yoga-experimental {
   font-size: 2vw;
   padding-top: 10%;
   padding-left: 2%;
+  transform: translateX(30%);
 }
 body main section div h5 {
   color: rgb(130, 112, 72);
   text-align: center;
   font-size: 1.75vw;
   padding-left: 2%;
+  transform: translateX(30%);
 }
 body main section div .meditacion {
   color: rgb(130, 112, 72);
   text-align: center;
   font-size: 2vw;
   padding-left: 2%;
+  transform: translateX(30%);
 }
 body main section div h6 {
   color: rgb(130, 112, 72);
   text-align: center;
   font-size: 1.75vw;
   padding-left: 2%;
+  transform: translateX(30%);
 }
 body main section .imagen-clases img {
   width: 70%;
   height: auto;
   padding-top: 5%;
-  margin-right: 2%;
+  padding-right: 2%;
   padding-bottom: 2%;
+  transform: translateX(40%);
 }
 
 @media (max-width: 468px) {
@@ -289,6 +302,7 @@ body main section .imagen-clases img {
     padding-top: 10%;
     text-align: center;
     padding-left: 15%;
+    transform: translateX(-3%);
   }
   body main section div h2 {
     color: rgb(130, 112, 72);
@@ -296,6 +310,7 @@ body main section .imagen-clases img {
     font-size: 3vw;
     text-align: center;
     padding-left: 15%;
+    transform: translateX(-3%);
   }
   body main section div h3 {
     color: rgb(130, 112, 72);
@@ -303,6 +318,7 @@ body main section .imagen-clases img {
     font-size: 3vw;
     text-align: center;
     padding-left: 15%;
+    transform: translateX(-3%);
   }
   body main section div p {
     color: rgb(130, 112, 72);
@@ -310,6 +326,7 @@ body main section .imagen-clases img {
     font-size: 2.5vw;
     text-align: center;
     padding-left: 15%;
+    transform: translateX(-3%);
   }
   body main section div .yoga-experimental {
     color: rgb(130, 112, 72);
@@ -318,6 +335,7 @@ body main section .imagen-clases img {
     padding-top: 10%;
     text-align: center;
     padding-left: 15%;
+    transform: translateX(-3%);
   }
   body main section div h5 {
     color: rgb(130, 112, 72);
@@ -325,6 +343,7 @@ body main section .imagen-clases img {
     font-size: 3vw;
     text-align: center;
     padding-left: 15%;
+    transform: translateX(-3%);
   }
   body main section div .meditacion {
     color: rgb(130, 112, 72);
@@ -332,6 +351,7 @@ body main section .imagen-clases img {
     font-size: 5vw;
     text-align: center;
     padding-left: 15%;
+    transform: translateX(-3%);
   }
   body main section div h6 {
     color: rgb(130, 112, 72);
@@ -339,6 +359,7 @@ body main section .imagen-clases img {
     font-size: 3vw;
     text-align: center;
     padding-left: 15%;
+    transform: translateX(-3%);
   }
   body main section .imagen-clases img {
     width: 100%;
@@ -348,6 +369,7 @@ body main section .imagen-clases img {
     padding-left: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
+    transform: translateX(2vw);
   }
 }
 main section form .Correo {
