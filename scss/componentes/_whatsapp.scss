@@ -1,0 +1,22 @@
+body {
+    main {
+        .whatsapp {
+            width: 20%;
+            height: 20%;
+
+            a {
+
+                .imagen-whatsapp img {
+
+                    max-width: 10%;
+                    position: fixed;
+                    right: 2%;
+                    bottom: 2%;
+                    z-index: 1;
+                   
+
+                }
+            }
+        }
+    }
+}
