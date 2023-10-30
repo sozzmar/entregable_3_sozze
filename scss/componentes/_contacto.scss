@@ -8,26 +8,64 @@ main {
                 padding-top: 3%;
                 padding-bottom: 3%;
 
+                label {
+                    border-radius: 5px;
+
+                }
+
 
             }
 
-            .textarea {
+            .nombreyapellido {
                 padding-left: 3%;
                 color: #827048;
                 font-size: 1.5vw;
                 padding-top: 3%;
                 padding-bottom: 3%;
+
+                label {
+                    border-radius: 5px;
+
+                }
+            }
+
+            .Comentarios {
+                padding-left: 3%;
+                color: #827048;
+                font-size: 1.5vw;
+                padding-top: 3%;
+                padding-bottom: 3%;
+
+                textarea {
+                    border-radius: 5px;
+                }
+            }
+
+            .boton-enviar {
+                display: block;
+                margin-top: 1rem;
+                padding-left: 3%;
+                text-decoration: none;
+                background-image: linear-gradient(to right, #827048, black);
+                width: 100px;
+                padding: 10px;
+                margin-left: 1rem;
+                margin-bottom: 5rem;
+                text-align: center;
+                color: rgb(253, 234, 219);
+                border-radius: 5px;
+
             }
         }
 
         .ubicacion {
-         
-            padding-left:3%;
+
+            padding-left: 3%;
             color: #827048;
             font-size: 1.5vw;
             padding-top: 2%;
             padding-bottom: 3%;
-            
+
 
         }
 
@@ -42,41 +80,46 @@ main {
 @media (max-width: 468px) {
     main {
         section {
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
             form {
-               
                 .Correo {
                     padding-left: 3%;
                     color: #827048;
-                    font-size: 5vw;
+                    font-size: 6vw;
                     padding-top: 3%;
                     padding-bottom: 3%;
-    
-    
+
+
                 }
-    
-                .textarea {
+
+                .nombreyapellido {
                     padding-left: 3%;
                     color: #827048;
-                    font-size: 5vw;
+                    font-size: 6vw;
                     padding-top: 3%;
                     padding-bottom: 3%;
                 }
+
+                .Comentarios {
+                    padding-left: 3%;
+                    color: #827048;
+                    font-size: 6vw;
+                    padding-top: 3%;
+                    padding-bottom: 3%;
+
+                }
             }
-    
+
             .ubicacion {
-             
-                padding-left:3%;
+
+                padding-left: 3%;
                 color: #827048;
-                font-size: 5vw;
+                font-size: 6vw;
                 padding-top: 2%;
                 padding-bottom: 3%;
-                
-    
+
+
             }
-    
+
             iframe {
                 padding-top: 3%;
                 padding-bottom: 3%;

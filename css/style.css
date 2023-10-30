@@ -14,6 +14,11 @@ main #carouselExampleFade .carousel-inner .carousel-item active img {
     background-position: center;
   }
   main #carouselExampleFade .carousel-inner .carousel-item img {
+    height: 85vh;
+    width: auto;
+    min-height: 80%;
+    min-width: 80%;
+    object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -27,11 +32,11 @@ body footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /*animation-name: cambiarcolor;
-  animation-iteration-count: infinite;
+  animation-name: cambiarcolor;
+  animation-iteration-count: initial;
   animation-timing-function: ease-in;
   animation-duration: 10s;
-  animation-delay: 1s;*/
+  animation-delay: 1s;
 }
 body footer a {
   text-decoration: none;
@@ -45,21 +50,17 @@ body footer a img:hover {
   width: 10%;
 }
 
-/*
 @keyframes cambiarcolor {
-    0%{
-        background-color: black;
-            }
-
-            50% {background-color: rgb(2, 0, 36);
-
-            }
-
-            100% {
-                background-color: beige;
-            }
-
-}*/
+  0% {
+    background-color: black;
+  }
+  50% {
+    background-color: rgb(2, 0, 36);
+  }
+  100% {
+    background-color: beige;
+  }
+}
 body header {
   padding: 10px;
   border-bottom: 10px solid rgb(130, 112, 72);
@@ -399,12 +400,42 @@ main section form .Correo {
   padding-top: 3%;
   padding-bottom: 3%;
 }
-main section form .textarea {
+main section form .Correo label {
+  border-radius: 5px;
+}
+main section form .nombreyapellido {
   padding-left: 3%;
   color: #827048;
   font-size: 1.5vw;
   padding-top: 3%;
   padding-bottom: 3%;
+}
+main section form .nombreyapellido label {
+  border-radius: 5px;
+}
+main section form .Comentarios {
+  padding-left: 3%;
+  color: #827048;
+  font-size: 1.5vw;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+main section form .Comentarios textarea {
+  border-radius: 5px;
+}
+main section form .boton-enviar {
+  display: block;
+  margin-top: 1rem;
+  padding-left: 3%;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #827048, black);
+  width: 100px;
+  padding: 10px;
+  margin-left: 1rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  color: rgb(253, 234, 219);
+  border-radius: 5px;
 }
 main section .ubicacion {
   padding-left: 3%;
@@ -420,29 +451,31 @@ main section iframe {
 }
 
 @media (max-width: 468px) {
-  main section {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-  }
   main section form .Correo {
     padding-left: 3%;
     color: #827048;
-    font-size: 5vw;
+    font-size: 6vw;
     padding-top: 3%;
     padding-bottom: 3%;
   }
-  main section form .textarea {
+  main section form .nombreyapellido {
     padding-left: 3%;
     color: #827048;
-    font-size: 5vw;
+    font-size: 6vw;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  main section form .Comentarios {
+    padding-left: 3%;
+    color: #827048;
+    font-size: 6vw;
     padding-top: 3%;
     padding-bottom: 3%;
   }
   main section .ubicacion {
     padding-left: 3%;
     color: #827048;
-    font-size: 5vw;
+    font-size: 6vw;
     padding-top: 2%;
     padding-bottom: 3%;
   }
