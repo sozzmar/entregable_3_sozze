@@ -21,8 +21,8 @@ main #carouselExampleFade .carousel-inner .carousel-item img {
     background-position: center;
   }
   main #carouselExampleFade .carousel-inner .carousel-item img {
-    height: 85vh;
-    width: auto;
+    height: 80vh;
+    width: 100vh;
     min-height: 80%;
     min-width: 80%;
     object-fit: cover;
@@ -90,6 +90,7 @@ body main .whatsapp a .imagen-whatsapp img {
   right: 2%;
   bottom: 2%;
   z-index: 1;
+  transition: 1s;
 }
 
 * {
