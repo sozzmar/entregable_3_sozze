@@ -12,6 +12,14 @@ main {
 
             }
 
+            .carousel-item img {
+                height: 85vh;
+                width: auto;
+                min-height: 80%;
+                min-width: 80%;
+                object-fit: cover;
+
+            }
         }
     }
 }
@@ -29,13 +37,13 @@ main {
                 background-size: cover;
                 background-position: center;
 
-                .carousel-item  img {
+                .carousel-item img {
                     height: 85vh;
                     width: auto;
                     min-height: 80%;
                     min-width: 80%;
-                object-fit: cover;
-                
+                    object-fit: cover;
+
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;

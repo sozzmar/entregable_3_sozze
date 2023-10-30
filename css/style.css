@@ -6,6 +6,13 @@ main #carouselExampleFade .carousel-inner .carousel-item active img {
   object-fit: cover;
   position: absolute;
 }
+main #carouselExampleFade .carousel-inner .carousel-item img {
+  height: 85vh;
+  width: auto;
+  min-height: 80%;
+  min-width: 80%;
+  object-fit: cover;
+}
 
 @media (max-width: 468px) {
   main #carouselExampleFade .carousel-inner {
