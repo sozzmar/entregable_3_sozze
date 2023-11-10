@@ -1,9 +1,18 @@
 @mixin color-texto {
-    color:  rgb(130, 112, 72);
+    color: rgb(130, 112, 72);
 }
 
 @mixin fondo-claro {
     background-color: rgb(253, 234, 219);
+}
+
+%clase-textos {
+    @include color-texto;
+    text-align: center;
+    font-size: 2vw;
+    padding-top: 10%;
+    padding-left: 2%;
+    transform: translateX(30%);
 }
 
 
@@ -30,12 +39,7 @@ body {
 
 
                 .clases-yoga-integal {
-                    @include color-texto;
-                    text-align: center;
-                    font-size: 2vw;
-                    padding-top: 10%;
-                    padding-left: 2%;
-                    transform: translateX(30%);
+                    @extend %clase-textos;
 
 
 
@@ -72,12 +76,7 @@ body {
                 }
 
                 .yoga-experimental {
-                    @include color-texto;
-                    text-align: center;
-                    font-size: 2vw;
-                    padding-top: 10%;
-                    padding-left: 2%;
-                    transform: translateX(30%);
+                    @extend %clase-textos;
 
                 }
 
@@ -91,11 +90,7 @@ body {
                 }
 
                 .meditacion {
-                    @include color-texto;
-                    text-align: center;
-                    font-size: 2vw;
-                    padding-left: 2%;
-                    transform: translateX(30%);
+                    @extend %clase-textos;
 
                 }
 
@@ -109,8 +104,8 @@ body {
                 }
 
             }
-            
-            
+
+
             .imagen-clases img {
                 width: 70%;
                 height: auto;
@@ -118,9 +113,9 @@ body {
                 padding-right: 2%;
                 padding-bottom: 2%;
                 transform: translateX(40%);
-        }
+            }
 
-        
+
 
 
 

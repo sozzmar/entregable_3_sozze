@@ -229,6 +229,15 @@ body main section .imangen-yogaintegral img {
     padding-bottom: 5%;
   }
 }
+body main section div .meditacion, body main section div .yoga-experimental, body main section div .clases-yoga-integal {
+  color: rgb(130, 112, 72);
+  text-align: center;
+  font-size: 2vw;
+  padding-top: 10%;
+  padding-left: 2%;
+  transform: translateX(30%);
+}
+
 body main {
   background-color: rgb(253, 234, 219);
 }
@@ -242,14 +251,6 @@ body main section {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-}
-body main section div .clases-yoga-integal {
-  color: rgb(130, 112, 72);
-  text-align: center;
-  font-size: 2vw;
-  padding-top: 10%;
-  padding-left: 2%;
-  transform: translateX(30%);
 }
 body main section div h2 {
   color: rgb(130, 112, 72);
@@ -272,25 +273,10 @@ body main section div p {
   padding-left: 2%;
   transform: translateX(30%);
 }
-body main section div .yoga-experimental {
-  color: rgb(130, 112, 72);
-  text-align: center;
-  font-size: 2vw;
-  padding-top: 10%;
-  padding-left: 2%;
-  transform: translateX(30%);
-}
 body main section div h5 {
   color: rgb(130, 112, 72);
   text-align: center;
   font-size: 1.75vw;
-  padding-left: 2%;
-  transform: translateX(30%);
-}
-body main section div .meditacion {
-  color: rgb(130, 112, 72);
-  text-align: center;
-  font-size: 2vw;
   padding-left: 2%;
   transform: translateX(30%);
 }
