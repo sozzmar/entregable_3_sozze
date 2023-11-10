@@ -1,9 +1,18 @@
+@mixin color-texto {
+    color:  rgb(130, 112, 72);
+}
+
+@mixin fondo-claro {
+    background-color: rgb(253, 234, 219);
+}
+
+
 body {
     main {
-        background-color: rgb(253, 234, 219);
+        @include fondo-claro;
 
         .titulo-quiensoy {
-            color: rgb(130, 112, 72);
+            @include color-texto;
             padding-left: 2%;
             font-size: 5vw;
         }
@@ -18,7 +27,7 @@ body {
 
 
             .parrafo-quiensoy {
-                color: rgb(130, 112, 72);
+                @include color-texto;
                 text-align: left;
                 font-size: 2vw;
                 width: 70%;
@@ -46,10 +55,10 @@ body {
 @media (max-width: 468px) {
     body {
         main {
-            background-color: rgb(253, 234, 219);
+            @include fondo-claro;
 
             .titulo-quiensoy {
-                color: rgb(130, 112, 72);
+                @include color-texto;
                 padding-left: 2%;
                 font-size: 7vw;
             }
@@ -64,7 +73,7 @@ body {
 
 
                 .parrafo-quiensoy {
-                    color: rgb(130, 112, 72);
+                    @include color-texto;
                     text-align: left;
                     font-size: 5vw;
                     width: 100%;

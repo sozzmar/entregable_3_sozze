@@ -403,7 +403,7 @@ body main section .imagen-clases img {
 }
 main section form .Correo {
   padding-left: 3%;
-  color: #827048;
+  color: rgb(130, 112, 72);
   font-size: 1.5vw;
   padding-top: 3%;
   padding-bottom: 3%;
@@ -413,7 +413,7 @@ main section form .Correo label {
 }
 main section form .nombreyapellido {
   padding-left: 3%;
-  color: #827048;
+  color: rgb(130, 112, 72);
   font-size: 1.5vw;
   padding-top: 3%;
   padding-bottom: 3%;
@@ -423,7 +423,7 @@ main section form .nombreyapellido label {
 }
 main section form .Comentarios {
   padding-left: 3%;
-  color: #827048;
+  color: rgb(130, 112, 72);
   font-size: 1.5vw;
   padding-top: 3%;
   padding-bottom: 3%;
@@ -447,7 +447,7 @@ main section form .boton-enviar {
 }
 main section .ubicacion {
   padding-left: 3%;
-  color: #827048;
+  color: rgb(130, 112, 72);
   font-size: 1.5vw;
   padding-top: 2%;
   padding-bottom: 3%;
@@ -461,28 +461,28 @@ main section iframe {
 @media (max-width: 468px) {
   main section form .Correo {
     padding-left: 3%;
-    color: #827048;
+    color: rgb(130, 112, 72);
     font-size: 6vw;
     padding-top: 3%;
     padding-bottom: 3%;
   }
   main section form .nombreyapellido {
     padding-left: 3%;
-    color: #827048;
+    color: rgb(130, 112, 72);
     font-size: 6vw;
     padding-top: 3%;
     padding-bottom: 3%;
   }
   main section form .Comentarios {
     padding-left: 3%;
-    color: #827048;
+    color: rgb(130, 112, 72);
     font-size: 6vw;
     padding-top: 3%;
     padding-bottom: 3%;
   }
   main section .ubicacion {
     padding-left: 3%;
-    color: #827048;
+    color: rgb(130, 112, 72);
     font-size: 6vw;
     padding-top: 2%;
     padding-bottom: 3%;
